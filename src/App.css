@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+html,
+body,
+#root,
+.app,
+.content{
+  height: 100%;
+  width:100% ;
+  font-family: 'Roboto';
+}
+
+
+.app{
+  display: flex;
+  position: relative;
+} 
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(6, 6, 37);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav{
+  display: flex;
+  /* height: 30px; */
+  /* background-color: violet; */
+  justify-content: space-between;
+}
+
+.lies a{
+  text-decoration: none;
+  color: black;
+}
+
+.text{
+  font-family: 'Bruno Ace';
+  text-align: center;
+  /* justify-content: space-around; */
+  /* justify-content: left; */
+}
+
+.para{
+  text-align: center;
+}
+
+.bunny{
+  text-align: center;
+}
+
+.make{
+  font-size: 30px;
+  
+}
+
+.box1{
+  height: 250px;
+  background-color: rgb(24, 13, 32);
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 7%;
+}
+
+.bob{
+  color: bisque;
+  font-family: 'Bruno Ace';
+}
+
+.all{
+  color: rgb(68, 78, 78);
+  font-size: 13px;
+}
+
+.dare{
+  text-decoration: none;
+  color: azure;
+}
+
+.box2{
+  height: 100px;
+  width: 60%;
+  background-color:whitesmoke;
+  border-radius: 7%;
+  
+}
+.box3{
+  height: 120px;
+  width: 60%;
+  background-color:pink;
+  border-radius: 7%;
+  
+
+
+}
+
+.per{
+  font-family: 'Teko';
+  font-size: 50px;
+
+
+  
+}
+
+.lof{
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.long{
+  font-size:20px ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-control{
+  width: 10%;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  nav{
+      background-color: black;
+      height: 170px;
+      display: inline-block;
+
+  
+  
+
+
+  }
+
+  .mouse{
+      display: inline;
+  }
+}
+
+
+
+
